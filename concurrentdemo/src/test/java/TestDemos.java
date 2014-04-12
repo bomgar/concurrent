@@ -23,4 +23,9 @@ public class TestDemos {
     public void testDemo4() throws Exception {
         assertThat(new Demo4().run()).isEqualTo(1000000);
     }
+
+    @Test
+    public void testDemo5() throws Exception {
+        assertThat(new Demo5().run()).isEqualTo(1000000);
+    }
 }
